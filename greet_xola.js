@@ -13,5 +13,5 @@ figlet(greet('Xola'), function(err, data) {
         console.dir(err);
         return;
     }
-    console.log(data)
+    console.log(chalk.bgGreen.black(data))
 });
